@@ -10,9 +10,7 @@
     <packaging>pom</packaging>
 
     <name>PullToRefresh (Parent)</name>
-    <description>Android library for implementing the pull to refresh pattern as seen in the latest Gmail app by
-        Google.
-    </description>
+    <description>A modern pull to refresh library for Android.</description>
     <url>http://ben.cm</url>
     <inceptionYear>2013</inceptionYear>
 
