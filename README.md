@@ -111,7 +111,7 @@ Developed By
 License
 =======
 
-    Copyright 2012 Benjamin Lee
+    Copyright 2013 Benjamin Lee
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
