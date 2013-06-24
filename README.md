@@ -3,14 +3,7 @@ PullToRefresh
 
 This project aims to provide a simple yet customizable pull to refresh implementation as seen in the latest Gmail app by Google.
 
-![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-01.png)
 ![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-02.png)
-![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-03.png)
-
-
-![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-04.png)
-![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-05.png)
-![PullToRefresh](https://raw.github.com/bencodes/PullToRefresh/master/downloads/screenshots/demo-06.png)
 
 Supported Views
 ============
