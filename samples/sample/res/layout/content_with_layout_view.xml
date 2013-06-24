@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2013 Benjamin lee
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<cm.ben.pulltorefresh.widget.PullToRefreshView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ptr="http://schemas.android.com/apk/res/cm.ben.pulltorefresh.sample"
+        android:id="@+id/ptr"
+        ptr:headerBackgroundColor="#dddddd"
+        ptr:progressColor="@android:color/holo_red_light"
+        ptr:headerTextRefreshing="@string/refreshing_message"
+        ptr:headerTextDragging="Dragging Message!"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/content_scroll_view"/>
+
+
+</cm.ben.pulltorefresh.widget.PullToRefreshView>

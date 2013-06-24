@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cm.ben.pulltorefresh.sample"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk
+            android:targetSdkVersion="17"
+            android:minSdkVersion="7"/>
+
+    <application android:label="@string/app_name"
+                 android:theme="@style/Theme.Sherlock.Light"
+                 android:icon="@drawable/ic_launcher">
+
+        <activity android:name=".DemoListActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".demo.ListViewExample"
+                  android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+
+        <activity android:name=".demo.WebViewExample"
+                  android:theme="@style/Theme.Sherlock"/>
+
+        <activity android:name=".demo.ScrollViewExample"/>
+
+        <activity android:name=".demo.CustomViewExample"/>
+
+        <activity android:name=".demo.CustomViewExample2"/>
+
+        <activity android:name=".demo.LayoutExample"/>
+    </application>
+</manifest>

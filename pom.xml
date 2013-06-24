@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cm.ben.pulltorefresh</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>PullToRefresh (Parent)</name>
+    <description>Android library for implementing the pull to refresh pattern as seen in the latest Gmail app by
+        Google.
+    </description>
+    <url>http://ben.cm</url>
+    <inceptionYear>2013</inceptionYear>
+
+    <scm>
+        <url>https://github.com/Bencodes/PullToRefresh/</url>
+        <connection>scm:git:git://github.com/Bencodes/PullToRefresh.git</connection>
+        <developerConnection>scm:git:git@github.com:Bencodes/PullToRefresh.git</developerConnection>
+        <tag>1.0.0</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Ben Lee</name>
+            <email>ben@ben.cm</email>
+            <id>bencodes</id>
+            <url>http://ben.cm</url>
+            <timezone>-7</timezone>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Ben Lee</name>
+        <url>http://ben.cm</url>
+    </organization>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/Bencodes/PullToRefresh/issues</url>
+    </issueManagement>
+
+    <modules>
+        <module>library</module>
+        <module>samples</module>
+    </modules>
+
+    <properties>
+        <!-- Encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Java/Android Versions -->
+        <java.version>1.6</java.version>
+        <android.version>4.0.1.2</android.version>
+        <android.platform>17</android.platform>
+
+        <nineoldandroids.version>2.4.0</nineoldandroids.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Android Core -->
+            <dependency>
+                <groupId>com.google.android</groupId>
+                <artifactId>android</artifactId>
+                <version>${android.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- For Animations -->
+            <dependency>
+                <groupId>com.nineoldandroids</groupId>
+                <artifactId>library</artifactId>
+                <version>${nineoldandroids.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.0</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <showWarnings>true</showWarnings>
+                        <compilerArguments>
+                            <Xlint/>
+                        </compilerArguments>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                    <artifactId>android-maven-plugin</artifactId>
+                    <version>3.5.3</version>
+                    <configuration>
+                        <nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
+                        <sdk>
+                            <platform>${android.platform}</platform>
+                        </sdk>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

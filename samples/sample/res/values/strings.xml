@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2013 Benjamin lee
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="refreshing_message">Refreshing Message!</string>
+    <string name="dragging_message">Dragging Message!</string>
+    <string name="demo_url">https://github.com</string>
+    <string name="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra, diam at aliquam
+        tincidunt, magna lacus aliquet velit, eget hendrerit quam urna sit amet mauris. Mauris volutpat pulvinar augue,
+        sit amet viverra velit ultrices at. Maecenas ac nibh vitae est ultricies euismod at vel est. Suspendisse quis
+        libero ligula. Aliquam at ligula pretium, tempor enim in, rhoncus leo. Maecenas in nibh interdum, tempor nulla
+        et, fermentum ligula. Nulla vehicula quam quis dignissim tincidunt. Donec in posuere leo, in hendrerit risus.
+        Nunc sit amet tempor tortor, nec luctus enim. Etiam ac cursus mauris, sed ornare tellus. Aenean varius et mauris
+        ac auctor.
+
+        Nam tincidunt a purus ac posuere. Pellentesque mollis orci quis mi cursus, ut adipiscing risus lobortis. Morbi
+        congue at dolor nec malesuada. Suspendisse felis lorem, blandit mattis porta id, dignissim eu eros. Vivamus id
+        ante at sapien porttitor pulvinar. Quisque ultricies at augue at luctus. Pellentesque blandit arcu a elementum
+        rutrum. Pellentesque quis dui vel diam eleifend volutpat ac ultrices mauris. Ut tincidunt ornare elit a
+        vehicula. Nullam rutrum ipsum vel mattis convallis. Nulla mi lorem, porta sed nibh ac, rhoncus vestibulum felis.
+        Phasellus rhoncus urna sem, eu malesuada magna semper sit amet. Interdum et malesuada fames ac ante ipsum primis
+        in faucibus. Nullam vel felis nunc.
+
+        Nam eget cursus purus, mattis consectetur purus. Vivamus id suscipit nisl. Duis velit augue, convallis eu
+        rhoncus sit amet, rutrum a massa. Pellentesque non pharetra turpis. Duis eleifend nibh quis enim facilisis
+        fringilla. Maecenas dignissim vitae nunc nec suscipit. Donec adipiscing elementum mauris sed ultricies.
+        Phasellus fermentum arcu sed fermentum euismod. Ut risus ligula, ullamcorper consequat eleifend lobortis,
+        blandit in nisi.
+
+        Sed orci sapien, rutrum eget ullamcorper et, posuere at orci. Praesent adipiscing porta massa vestibulum
+        fringilla. Aliquam elementum pharetra velit non mattis. Donec velit metus, dignissim eu massa ac, consectetur
+        cursus orci. Phasellus eu felis id leo pellentesque fringilla sed semper eros. In ac lacinia enim, et ornare
+        massa. Mauris vitae metus nec risus cursus placerat. Sed quis rhoncus dolor. Pellentesque enim tortor, sagittis
+        sit amet bibendum hendrerit, feugiat id dolor. Vestibulum urna turpis, luctus eget neque ac, vulputate venenatis
+        nibh. Nam egestas id nibh tempor feugiat.
+
+        Aenean odio sapien, hendrerit sit amet lorem nec, dignissim venenatis nisl. Vivamus auctor, mi ut imperdiet
+        feugiat, lorem justo pretium eros, sit amet pharetra nisi sapien in urna. Morbi sed libero a quam cursus lacinia
+        eget nec justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Aliquam erat volutpat. Fusce lectus purus, lobortis sed scelerisque id, sollicitudin non elit. Morbi nec
+        pellentesque dui. Suspendisse malesuada leo ac lobortis egestas. Etiam vitae eros id mauris vehicula fringilla.
+        Quisque a accumsan lacus, in semper purus.
+
+        Suspendisse mattis mi mi, eget dapibus ipsum sagittis ac. Etiam sit amet scelerisque libero. In sed placerat
+        urna. In rhoncus tellus libero, consectetur suscipit elit sollicitudin sed. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Proin congue, ipsum eget commodo placerat, ipsum
+        augue eleifend augue, non dapibus tellus tortor eget metus. Morbi rhoncus ligula a risus consectetur venenatis.
+        Vestibulum egestas, urna vitae vestibulum adipiscing, justo enim accumsan lectus, vitae pulvinar risus elit
+        vitae neque. Duis nec lacus dui. Aenean eu enim libero. In auctor orci quis massa dictum porttitor. Aenean
+        vehicula sed urna quis pharetra. Phasellus in cursus tellus. Vivamus tincidunt consequat lectus quis sodales.
+        Quisque adipiscing tempus diam, eu auctor lacus vulputate nec.
+
+        Pellentesque ac eros convallis, placerat ligula vitae, commodo leo. Morbi consequat, turpis eget tempor varius,
+        erat lacus convallis nunc, lacinia imperdiet leo quam interdum tellus. In sit amet dignissim ante. Etiam iaculis
+        bibendum purus a placerat. Sed tellus elit, cursus ut lacus nec, varius pulvinar massa. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Vivamus a faucibus est, ut eleifend odio. Aenean sed risus odio. Nunc aliquet
+        consequat magna, id sodales mauris venenatis et. Nam quis aliquet justo, a scelerisque eros. Donec mattis a
+        magna quis ullamcorper. Aenean vel convallis sapien. Maecenas venenatis in turpis eu condimentum. In dolor
+        neque, mattis a fringilla sed, vehicula a quam. Ut fermentum rhoncus mollis.
+
+        Proin scelerisque quam dui, in accumsan magna ultricies vitae. Sed tempor id ante ac gravida. Donec adipiscing
+        velit eu nulla porttitor blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend at
+        turpis porta pulvinar. Proin volutpat tempus mauris ac bibendum. Duis sed sem arcu. Mauris fringilla odio ut
+        neque vestibulum ultricies. Integer lobortis dapibus erat, eu placerat diam pretium eget. Sed vel sapien
+        fringilla purus dictum aliquam. Sed condimentum diam vel ultricies malesuada. Integer urna nunc, interdum et est
+        non, viverra ultricies nisl. Duis ultrices, est et imperdiet pellentesque, ante mi mollis sem, et posuere metus
+        augue eget lorem.
+
+        Suspendisse urna turpis, convallis a aliquam dapibus, tempor quis mi. Donec hendrerit accumsan mi, eget mattis
+        leo dictum nec. Vivamus volutpat tristique nulla. Integer varius, libero id suscipit blandit, est justo feugiat
+        mi, sed mollis magna ligula ut odio. Mauris convallis ultricies congue. Nulla volutpat, neque nec imperdiet
+        eleifend, leo tortor pretium ligula, hendrerit congue urna magna at nisi. Phasellus consequat auctor commodo. In
+        ut enim a nisl blandit laoreet. Curabitur eget odio dui. Phasellus vel porta orci, eu luctus magna. Vestibulum
+        elementum rutrum quam, ac varius orci posuere id.
+
+        Nullam sed ante quis dui venenatis elementum. Sed ac nunc lobortis, blandit dui ac, pharetra libero. Morbi
+        rhoncus, nibh sed egestas posuere, tellus massa facilisis mi, nec auctor tellus elit sed lorem. Sed vulputate
+        turpis non massa tincidunt suscipit. Phasellus sed varius lacus. Quisque egestas dolor et gravida varius. Nullam
+        venenatis risus eu eros posuere fermentum. Nam quis massa porta, ornare ante eu, accumsan eros.
+    </string>
+</resources>
